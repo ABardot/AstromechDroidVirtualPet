@@ -52,10 +52,49 @@ namespace AstromechDroidVirtualPet
 
 
         // Methods
-        public void CleanDroid()
+        public string Clean()
         {
-
+            if (isClean == false)
+            {
+              
+                return "The R2 unit has been cleaned.";
+            }
+            else
+            {
+                return "The R2 unit does not need a cleaning.";
+            }
         }
+
+        public string Battery()
+        {
+            if (isBattery == false)
+            {
+                
+                return "The R2 unit has a new battery.";
+            }
+            else
+            {
+                return "The R2 unit does not require a new battery.";
+            }
+        }
+
+        public string Wheel()
+        {
+            if (isWheel == false)
+            {
+              
+                return "The R2 unit wheels have been replaced.";
+            }
+            else
+            {
+                return "The R2 unit does not require a new wheel.";
+            }
+        }
+
+        //public int Tick()
+        //{
+        //    tick
+        //}
 
     }
 }
