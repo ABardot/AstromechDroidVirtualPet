@@ -47,7 +47,6 @@ namespace AstromechDroidVirtualPet
             this.isClean = isClean;
             this.isBattery = isBattery;
             this.isWheel = isWheel;
-
         }
 
 
@@ -91,9 +90,9 @@ namespace AstromechDroidVirtualPet
             }
         }
 
-        //public int Tick()
+        //private void TickGenerator()
         //{
-        //    tick
+        //    Tick();
         //}
 
     }
