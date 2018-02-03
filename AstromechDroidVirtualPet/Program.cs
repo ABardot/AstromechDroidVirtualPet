@@ -8,7 +8,7 @@ namespace AstromechDroidVirtualPet
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Welcome to the Astromech droid repair program.");
             Console.WriteLine("I see you plugged in an R2 unit.");
