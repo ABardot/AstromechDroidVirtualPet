@@ -21,11 +21,10 @@ namespace AstromechDroidVirtualPet
             Console.WriteLine("R2 unit needs new battery: {0}");
             Console.WriteLine("R2 unit needs new tire: {0}");
             Console.WriteLine("\n");
-
-
             Console.WriteLine("To clean the R2 unit please press 1");
             Console.WriteLine("To charge the battery on the R2 unit please press 2");
             Console.WriteLine("To change the wheel on R2 unit please press 3");
+            Console.WriteLine("To exit program press 4");
 
 
         }
